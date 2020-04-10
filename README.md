@@ -4,12 +4,14 @@ A simple PowerShell script to help geologists friends to get books from pubs.geo
 # config the script for your enviromment
 Change $destination (line 6) variable with your chosen path to save the books. Your user must have write permissions on that folder!
 IMPORTANT: do not forget to put a backslash after the last dir or the files will be saved at the immediate parent directory.
+
 Example: $destination = 'C:\Users\username\books\'
 
 TIP: create a folder with only that purpose, put the script.ps1 inside the folder, so all the job will be done on only one folder.
 
 Change the $books (line 12) list to your desired books list.
 Example:
+
 $books = @(
 	"https://pubs.geoscienceworld.org/books/book/1385/Geology-and-Genesis-of-Major-Copper-Deposits-and",
 	"https://pubs.geoscienceworld.org/books/book/1884/Supergene-Environments-Processes-and-Products"
