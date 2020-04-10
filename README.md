@@ -26,7 +26,7 @@ Before execute the script, your power shell execution policy must be set to Unre
 4. Navigate to the folder where the script.ps1 was saved: (ex.cd  C:\Users\username\Downloads\Books)
 4. Execute the script (you need to be at the directory where script was saved) with the command: script.ps1
 
-The script will run and iterate over each book you listed at $books list. Don't skipt the 30s timout our your IP can be blocked as a robot by geoscienceworld.
+The script will run and iterate over each book you listed at $books list. Don't skip the 30s timout our your IP can be blocked as a robot by geoscienceworld.
 
 If your IP got blocked, don't worry. Acess through the link to any book on your web browser and check the captcha to unblock.
 
