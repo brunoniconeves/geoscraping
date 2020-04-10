@@ -12,9 +12,9 @@ TIP: create a folder with only that purpose, put the script.ps1 inside the folde
 Change the $books (line 12) list to your desired books list.
 Example:
 
-$books = @(
-	"https://pubs.geoscienceworld.org/books/book/1385/Geology-and-Genesis-of-Major-Copper-Deposits-and",
-	"https://pubs.geoscienceworld.org/books/book/1884/Supergene-Environments-Processes-and-Products"
+$books = @(<br/>
+	"https://pubs.geoscienceworld.org/books/book/1385/Geology-and-Genesis-of-Major-Copper-Deposits-and",<br/>
+	"https://pubs.geoscienceworld.org/books/book/1884/Supergene-Environments-Processes-and-Products"<br/>
 	)
 
 # steps
